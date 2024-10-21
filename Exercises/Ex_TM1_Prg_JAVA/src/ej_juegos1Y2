@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ej_juegos1Y2{
+
+    public static void main(String[] args);
+
+    Scanner sc = new Scanner(System.in);
+
+    sout
+    // pedir un numero hasta q se encuentre el indicado++
+    int numUsuario = Integer.valueOf(sc.nextLine());
+
+    //la persona tiene un numero de intentos que sabe 
+    // tiene q ser un numero aleatorio
+    //decir si el numero es mayor o menor al introducido
+
+    //si acierta, dar enhorabuena ++ info de cuantos intentos ha tenido
+    //si falla  decir q se han acabado los intentos y q ha perdido (10)
+
+
+}

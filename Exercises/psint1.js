@@ -1,0 +1,13 @@
+let num = 1;
+
+while (num <= 100) {
+  console.log(num);
+  num += 1;
+}
+ // djwaf e
+let person = {
+  name: "lucho"
+}
+
+
+//asdkfjsadf

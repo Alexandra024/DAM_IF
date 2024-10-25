@@ -3,7 +3,7 @@ import random
 
 # generamos un numero aleatorio
 num_random = random.randint(1,10)
-print(num_random)
+#print(num_random)
 
 contador_intentos = 0
 

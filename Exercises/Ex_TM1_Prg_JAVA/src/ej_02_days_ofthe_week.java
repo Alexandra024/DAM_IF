@@ -8,7 +8,6 @@ public class ej_02_days_ofthe_week {
 		Scanner sc = new Scanner (System.in);
 		
         System.out.println("Input a number from 1 to 7 (days of the week)");
-		boolean input = Boolean.valueOf(sc.nextLine()); 
 
 
 

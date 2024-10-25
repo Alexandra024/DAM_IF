@@ -6,16 +6,20 @@ public class ej_1Y2_areaYperim_circ {
 		
 		// pi  * r2
         System.out.println("Introduce the radium of the circle");
-		boolean input = Boolean.valueOf(sc.nextLine()); 
-		
-		// ni yo se lo q estoy haciendo
-		float pi = 3.14 ; // estoy liada no se pq tanot errorrr
-		
-		float res = float pi* (input*input) 
-		
-		
-        System.out.println("This is the circunfernce = " + res );
+		int radius = Integer.valueOf(sc.nextLine());
 
+		double pi = Math.PI ; 	
+				
+		double res_area = pi * Math.pow(radius,2); // Math.pow es para elevar al cuadrado 2 --- area
+		double res_perim = (pi * radius * 2) ; // --- perimetro
+
+
+		System.out.println("The area of the circunfernce is = " + res_area );
+		System.out.println("The area of the circunfernce is = " + res_perim );
+
+
+		sc.close();
 	}
 
 }
+

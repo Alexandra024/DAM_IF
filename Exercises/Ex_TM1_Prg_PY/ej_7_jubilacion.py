@@ -1,5 +1,5 @@
 
-print(f'Ingrese su fecha de nacimiento DD / MM / AAAA')
+print('Ingrese su fecha de nacimiento DD / MM / AAAA')
 dia= int(input(''))
 mes= int(input(''))
 ano= int(input(''))

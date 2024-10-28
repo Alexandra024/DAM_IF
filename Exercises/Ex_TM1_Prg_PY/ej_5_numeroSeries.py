@@ -26,11 +26,13 @@ while c <= 100:
         print(c)
     c += 1    
 else:
-    print("no mas")
+    print("no mas\n")
 
-# factorial de un numero (8!)--------------------
+# factorial de un numero (8!)
 n_factorial= int(input("escribe un numero para hacer su factorial: "))
+var= 1
 
-for i in range (n_factorial,0,-1): # --- decrementa los numeros sin el cero
-    for f in range(i):
-        print(f'{n_factorial} * {i}')
+for i in range (1,n_factorial +1):
+    var *= i
+
+print(f'El factorial de {n_factorial} es {var}')

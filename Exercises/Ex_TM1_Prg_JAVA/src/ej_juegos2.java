@@ -1,3 +1,3 @@
-public class ej_juegos2 {
+public class Ej_juegos2 {
     
 }

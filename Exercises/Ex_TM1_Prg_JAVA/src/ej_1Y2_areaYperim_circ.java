@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ej_1Y2_areaYperim_circ {
+public class Ej_1Y2_areaYperim_circ {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		

@@ -1,5 +1,5 @@
 
-public class ej_5_1y100 {
+public class Ej_5_1y100 {
 
 	public static void main(String[] args) {
 		
@@ -15,3 +15,4 @@ public class ej_5_1y100 {
 	}
 
 }
+

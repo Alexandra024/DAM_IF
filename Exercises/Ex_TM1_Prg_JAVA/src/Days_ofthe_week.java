@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Ej_02_days_ofthe_week {
+public class Days_ofthe_week {
 
 	public static void main(String[] args) {
 		

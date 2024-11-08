@@ -5,5 +5,6 @@ mes= int(input(''))
 ano= int(input(''))
 int(input(f'Enhorabuena se ha registrado con la fecha de {dia} / {mes} / {ano}'))
 
+while True: 
 
     

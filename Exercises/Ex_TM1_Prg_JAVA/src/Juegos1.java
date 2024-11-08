@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;  // importamos la clase Random para crear el num random
 
 
-public class Ej_juegos1{
+public class Juegos1{
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in); // --- lee inputs
@@ -15,7 +15,7 @@ public class Ej_juegos1{
 
 
         while (true){
-            System.out.println('Adivina ');
+            System.out.println("Adivina");
             
             if (input== 0){
                 break;

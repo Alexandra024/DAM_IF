@@ -5,7 +5,10 @@ public class NumerosMuchos {
 		
 		int num = 99 ;
 		
-		if (num<=200; num % 2 == 0; num++)
+		if (int i <= 200; i % 2 == 0; i++){
+
+		}
+
 		
 				 
 	}

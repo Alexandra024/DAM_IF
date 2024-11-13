@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Bisiesto { //hace falta mejoras ?? poner dia y mes?
+public class Tempo { 
 
-    public static void main(String[] args) {
+    public static void bisiesto(String[] args) {
         Scanner sc = new Scanner(System.in);
  
         System.out.println("Introduce una fecha ");
@@ -15,5 +15,19 @@ public class Bisiesto { //hace falta mejoras ?? poner dia y mes?
             System.out.println("No es un año bisiesto");
         }
         sc.close();
+    }
+
+    public static void fecha_correcta(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Introduce la fecha: DD/MM/AAAA");
+        String input = String.valueOf(sc.nextLine());
+
+
+
+        sc.close();
+
+
+
     }
 }

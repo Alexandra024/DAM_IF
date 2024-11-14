@@ -17,12 +17,18 @@ public class Tempo {
         sc.close();
     }
 
-    public static void fecha_correcta(String[] args) {
+    public static String fecha_correcta(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Introduce la fecha: DD/MM/AAAA");
-        String input = String.valueOf(sc.nextLine());
-
+        String dd = String.valueOf(sc.nextLine());
+        String mm = String.valueOf(sc.nextLine());
+        String aaaa = String.valueOf(sc.nextLine());
+        
+        String fechaIntroducida=  System.out.println("esta  es la fecha escrita" + dd + "/" + mm + "/" + aaaa);
+ 
+        if  {
+        }
 
 
         sc.close();

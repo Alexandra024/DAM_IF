@@ -8,18 +8,7 @@ public class NumerosMuchos {
                 System.out.println(i);
             }
         }
-
-		
     }
-
-
-	public static int ordenNumerosASC(){ // crear metodo descendente tmb
-
-		// leer los numeros, poner los tres primeros en orden ascendente  
-		//leer numeros introducidos ordenarlos de manera ascendente
-
-
-	}
 
 	
 }

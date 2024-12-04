@@ -1,10 +1,7 @@
-# #caja registradora
+#caja registradora
 
-# #total_compra = float(input('Cuánto tienes que pagar?: ')) # ej. 6,46
-# #pago_compra = float(input('Cuánto pagaste?: ')) #ej. 10
-
-total = 5.46 
-pago = 10
+total = float(input("Cuánto tienes que pagar?: ")) #la coma tiene que ponerse con un punto!!
+pago = float(input("Cuánto pagaste?: "))
 
 cambio = pago - total
 
@@ -19,5 +16,3 @@ for i in caja:
 print(vueltas_camb)
 
 
-# for i in vueltas_camb:
-#     vueltas_camb.count(i)

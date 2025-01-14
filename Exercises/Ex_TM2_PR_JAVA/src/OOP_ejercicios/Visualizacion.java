@@ -1,3 +1,4 @@
+package OOP_ejercicios;
 import java.util.Scanner;
 
 public class Visualizacion {
@@ -18,11 +19,4 @@ public class Visualizacion {
 
     }
 
-    public static void main(System[]args){
-
-        int numr = 434;
-
-
-
-    }
 }

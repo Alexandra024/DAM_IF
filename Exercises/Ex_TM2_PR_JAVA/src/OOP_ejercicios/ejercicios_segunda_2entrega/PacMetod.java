@@ -1,3 +1,4 @@
+package OOP_ejercicios.ejercicios_segunda_2entrega;
 public class PacMetod {
     
     // bubble sort algoritmo para descendentes

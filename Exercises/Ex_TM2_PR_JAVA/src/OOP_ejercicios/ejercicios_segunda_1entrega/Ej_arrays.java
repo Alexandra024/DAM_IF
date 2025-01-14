@@ -110,23 +110,98 @@ public class Ej_arrays {
         System.out.println("}");
     }
 
-    public static void capicua(String[] args) {
-        // Confirma si un número es capicúa con un array.
+    public static boolean capicua() { // deberia meterse dentro de () algun parámetro? como num ????
+        Scanner sc = new Scanner(System.in);
 
-        String input = String.valueOf(sc.nextLine());
-        System.out.println(" ");
-        
+        // Confirma si un número es capicúa con un array.
+        // Pedir al usuario el número a verificar
+        System.out.print("Ingresa un número para verificar si es capicúa: ");
+        Integer numeroStr = Integer.valueOf(sc.nextLine());
+
+        //Convertir el String en int 
+        if (numeroStr > 0){ 
+            System.out.println(numeroStr + "...");
+        }else {
+            int numObligPos = numeroStr * -1 ;
+            System.out.println("Solo pueden ser números positivos.. Vamos a hacer la comprobación con el ingresado siendo este entero.." 
+                                + numObligPos + "...");
+        }
+
+        int nOriginal = numeroStr; 
+        int nReverso = 0;     
+
+        // Comprobamos si el número tiene más de un dígito
+        if (numeroStr < 0) {
+            return false; // Si es negativo no puede ser capicúa
+        }
+
+        while (numeroStr > 0) {
+            int digito = numeroStr % 10;    // Extraemos el último dígito
+            nReverso = nReverso * 10 + digito; // Agregamos el dígito al reverso
+            numeroStr /= 10;  // Eliminamos el último dígito del número
+        }
+
+        // Comparamos el número original con el reverso
+        return nOriginal == nReverso;
+                
 
     }
 
     public static void interseccion_coincidencias(String[] args) {
-    
-        // - [ ]  Intersección de dos arrays en un tercero.
 
-        // Interseccion. Dos arrays. En un tercer array se muestran todos los elementos que 
-        // coinciden en los dos primeros.
         System.out.println(" ");
-
-
+        System.out.println("Arrays para insercion");
+        
+        int [] o = {5, 3, 2, 4, 75};
+        int [] p = {1, 5, 3, 7, 75};
+        int acumQ = o.length;
+        int acumR = p.length;
+        int totalS = acumQ + acumR;
+        int [] t = new int [totalS]; // array de ambos arrays
+        int [] z = new int[t.length]; // array de iguales
+        
+        for(int i = 0; i < o.length /2 ; i++) {
+            t[i] = o[i];	
+        }
+        
+        for (int i = 0; i < o.length; i++) {
+            t[o.length + i] = p[i];
+        }
+        
+        System.out.println("Impresion de conjunto a");
+        for(int i : o) {
+            System.out.println(i);
+        }
+        System.out.println("Impresion de conjunto b");
+        for(int i : p) {
+            System.out.println(i);
+        }
+        
+           System.out.println("Contenido de ambos conjuntos");
+        for (int i : t) {
+            System.out.println(i);
+        }
+        
+        System.out.println("------------------");
+        // este es para agregar solo los iguales al nuevo arr z
+        // Comprobar los elementos comunes de o y p e insertarlos en z
+        
+        int zIndex = 0; // Índice para z
+        for (int i = 0; i < o.length; i++) {
+            for (int j = 0; j < p.length; j++) {
+                if (o[i] == p[j]) { // Si el elemento de o es igual al de p
+                    z[zIndex] = o[i];
+                    zIndex++;
+                    break; // una vez encontrado, no sigue buscando el elemento
+                }
+            }
+        }
+        
+        
+        // usamos bucle general para
+        for (int i = 0; i < zIndex; i++) {
+            System.out.println(z[i]);
+        }
+        
     }
 }

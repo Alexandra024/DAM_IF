@@ -3,43 +3,40 @@ import java.util.Scanner;
 
 public class Arrays_bySara{
 
-    public static void main(String[] args) {
+    public static boolean main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        String regulador = "-?\\d+"; // Permite números negativos o positivos
 
         // Pedir al usuario el número a verificar
         System.out.print("Ingresa un número para verificar si es capicúa: ");
-        String numeroStr = String.valueOf(sc.nextLine());
+        Integer numeroStr = Integer.valueOf(sc.nextLine());
 
         //Convertir el String en int 
-        if (numeroStr.matches(regulador)){ 
-            // "matches" sirve para verificar si toda la cadena es un número válido con o sin signo.
-            int numVerificado = Integer.valueOf(numeroStr);
+        if (numeroStr > 0){ 
+            System.out.println(numeroStr + "...");
         }else {
-            // Mensaje de error si no coinciden con ser int
-            System.out.println("Entrada no válida. Por favor, ingresa un número entero.");
+            int numObligPos = numeroStr * -1 ;
+            System.out.println("Solo pueden ser números positivos.. Vamos a hacer la comprobación con el ingresado siendo este entero.." 
+                                + numObligPos + "...");
         }
         
-        // Todo capicúa con un número par de cifras es divisible por 11.
+        int nOriginal = numeroStr; 
+        int nReverso = 0;     
 
-
-
-
-        // array invertido [000 00] para albergar 
-        int[] arrInvert = new int[arr1.length]; 
-
-        for (int i = 0; i < arrInvert.length; i++){
-            for (int j = 0; j < arrInvert.length; j++){
-                if (arr1[] == arrInvert[]){
-                    System.out.println("El número" + arrInvert + "es capicua");
-                }
-                else{
-                    System.out.println("No es capicua.");
-                }
-            }
-            
+        // Comprobamos si el número tiene más de un dígito
+        if (numeroStr < 0) {
+            return false; // Si es negativo no puede ser capicúa
         }
+
+        while (numeroStr > 0) {
+            int digito = numeroStr % 10;    // Extraemos el último dígito
+            nReverso = nReverso * 10 + digito; // Agregamos el dígito al reverso
+            numeroStr /= 10;  // Eliminamos el último dígito del número
+        }
+
+        // Comparamos el número original con el reverso
+        return nOriginal == nReverso;
+    
+        
     }
 
 }

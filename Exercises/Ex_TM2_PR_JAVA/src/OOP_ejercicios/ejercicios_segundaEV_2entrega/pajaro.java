@@ -1,4 +1,4 @@
-package OOP_ejercicios.ejercicios_segunda_2entrega;
+package OOP_ejercicios.ejercicios_segundaEV_2entrega;
 // PAGINA 101 - apoyo módulo
 // https://aulavirtual33.educa.madrid.org/ies.islasfilipinas.madrid/pluginfile.php/6463/mod_resource/content/1/Programaci%C3%B3n%20en%20Java.pdf
     

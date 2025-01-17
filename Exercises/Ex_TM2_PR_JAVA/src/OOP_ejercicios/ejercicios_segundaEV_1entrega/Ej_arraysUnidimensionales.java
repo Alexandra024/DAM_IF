@@ -1,7 +1,7 @@
-package OOP_ejercicios.ejercicios_segunda_1entrega;
+package OOP_ejercicios.ejercicios_segundaEV_1entrega;
 import java.util.Scanner;
 
-public class Ej_arrays {
+public class Ej_arraysUnidimensionales {
     
     public static void iguales(String[] args) {
         // sumar dos arrays y el array suma ser del mismo tamaño

@@ -1,4 +1,4 @@
-package OOP_ejercicios.ejercicios_segunda_1entrega;
+package OOP_ejercicios.ejercicios_segundaEV_1entrega;
 
 import java.util.Scanner;
 

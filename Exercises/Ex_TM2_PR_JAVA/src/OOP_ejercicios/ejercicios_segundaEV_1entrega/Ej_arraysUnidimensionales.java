@@ -144,7 +144,6 @@ public class Ej_arraysUnidimensionales {
         // Comparamos el número original con el reverso
         return nOriginal == nReverso;
                 
-
     }
 
     public static void interseccion_coincidencias(String[] args) {

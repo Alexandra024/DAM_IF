@@ -1,11 +1,9 @@
-package OOP_ejercicios;
+package OOP_ejercicios.ejercicios_segundaEV_1entrega;
 import java.util.Scanner;
 
 import java.util.Arrays; 
 // aqui podemos utilizar el modo toString para imprimir arrays el sout no funciona
-
-import OOP_ejercicios.ejercicios_segundaEV_1entrega.Propia_classArrays;
-public class VisualizacionMetodos {
+public class VisualizacionMetodos_classArrays {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

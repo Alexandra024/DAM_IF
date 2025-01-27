@@ -10,7 +10,7 @@ package OOP_ejercicios.ejercicios_segundaEV_2entrega;
     // y finalmente visualizaré el num de pajaros totales
 
 
-public class pajaro {
+public class Pajaro {
 
     private static int Npajaros= 1000;
     private int id ;

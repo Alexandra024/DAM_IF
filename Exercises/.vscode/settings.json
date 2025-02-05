@@ -1,9 +1,0 @@
-{
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "oneDarkPro.vivid": true,
-    "oneDarkPro.bold": true,
-    "oneDarkPro.italic": true,
-    "editor.tokenColorCustomizations": {
-    "comments": "#efcbe0"
-}
-}

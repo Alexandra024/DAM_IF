@@ -17,7 +17,9 @@ public class Director {
     }
 
     // Getters y Setters
-    public String getNombre() { return nombre; }
+    public String getNombre() {
+        return nombre;
+    }
     public void setNombre(String nombre) { this.nombre = nombre; }
 
     public String getPaisOrigen() { return pais_origen; }
@@ -44,11 +46,17 @@ public class Director {
 
     }
 
-    public static void imprimir() {
 
-    // Añadir un método público llamado "imprimir", que escriba 
-    // en pantalla los datos del director. 
-        sout 
+    public static void imprimir() {        
+        // Añadir un método público llamado "imprimir", que escriba 
+        // en pantalla los datos del director
+
+        Director nuevDirector = new Director();
+
+    // Sobrescribir toString ; método sobrecargado y sobreescrito
+    @Override
+        toString.Director
+    
 
     }
 

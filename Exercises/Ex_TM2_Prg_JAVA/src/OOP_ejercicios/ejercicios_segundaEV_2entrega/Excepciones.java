@@ -14,7 +14,7 @@ public class Excepciones {
 
         try {
             System.out.println("Intentando acceder al índice 4...");
-            int  n = numeros[4]; // índice inexistente
+            int n = numeros[4]; // índice inexistente
 
         } catch(ArrayIndexOutOfBoundsException e) {
             System.out.println("ejecuta al capturar excepcion; mensaje al usurario obligatorio");

@@ -1,4 +1,4 @@
-package OOP_ejercicios.ejercicios_segundaEV_2entrega.Ej_7_Directo_Pelicula;
+package OOP_ejercicios.ejercicios_segundaEV_2entrega.Ej_7_Director_Pelicula;
 
 public class Director {
     private String nombre;

@@ -43,7 +43,7 @@ class Cuenta{
     public int getnRetiros() { return nRetiros; }
     public float gettasaAnual() { return tasaAnual; }
     public float getcomisionMensual() { return comisionMensual; }
-    public float getSaldo() { return this.saldo; }
+    public float getSaldo() { return saldo; }
     // Setters
     public void setnConsignaciones(int nConsignaciones) { this.nConsignaciones = nConsignaciones; }
     public void setnRetiros(int nRetiros) { this.nRetiros = nRetiros; }
@@ -55,8 +55,8 @@ class Cuenta{
       return "Saldo: " + saldo + "\n" + "Consignaciones: " + nConsignaciones + "\n" +
        "Retiros: " + nRetiros + "\n" + "Comision mensual: " + comisionMensual +
 
-        "===== Estado de la Cuenta =====" + "Saldo: " + saldo + "Número de consignaciones: " + nConsignaciones 
-        + "Número de retiros: " + nRetiros + "Tasa anual: " + tasaAnual + "%" 
-        + "Comisión mensual: " + comisionMensual + "===============================";
+        "\n===== Estado de la Cuenta =====\n" + "Saldo: " + saldo + "\nNúmero de consignaciones: " + nConsignaciones 
+        + "\nNúmero de retiros: " + nRetiros + "\nTasa anual: " + tasaAnual + "%" 
+        + "\nComisión mensual: " + comisionMensual + "\n===============================";
     }
 }

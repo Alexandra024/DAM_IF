@@ -3,6 +3,9 @@ package OOP_ejercicios.ejercicios_segundaEV_2entrega.Herencia_ejercicios.CuentaB
 class CuentaCorriente extends Cuenta{
     private float sobregiro = 0;
   
+    public float getSobregiro(){return sobregiro;}
+    public void setSobregiro(float sobregiro){this.sobregiro = sobregiro;}
+
     public CuentaCorriente(float saldo, float tasaAnual){
       super(saldo, tasaAnual);
     }
@@ -17,5 +20,26 @@ class CuentaCorriente extends Cuenta{
       }
     }
 
-    
+    @Override
+    public void consignar(float cantidad){
+        super.consignar(cantidad);
+        if (sobregiro > 0 ){
+            float nuevoSaldo = getSaldo() - sobregiro;
+            System.out.println("Su saldo actualizado es:" + nuevoSaldo);
+        }
+    }
+
+    @Override
+    public void extractoMensual(){
+        super.extractoMensual();
+    }
+
+    public int transacciones(){
+        return getnRetiros() + getnConsignaciones();
+    }    
+
+    public String toString(){
+        return "Saldo:" + getSaldo() + "\n Comisión Mensual:" + getcomisionMensual() +
+        "\n Transacciones realizadas:" + transacciones() + "\n Sobregiro:" + getSobregiro() + "\n=================";
+    }
   }

@@ -50,7 +50,7 @@ class CuentaAhorros extends Cuenta{
   
     public String toString(){
       return "Saldo:" + getSaldo() + "\n Comisión Mensual:" + getcomisionMensual() + 
-        "\n Transacciones:" + transacciones();
+        "\n Transacciones:" + transacciones() + "\n=================";
     }
   
 }

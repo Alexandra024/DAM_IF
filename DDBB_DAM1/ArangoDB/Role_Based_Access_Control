@@ -1,0 +1,10 @@
+# Connect as an admin to manage users
+sys_db = client.db("_system", username="root", password="adminpassword")
+
+# Create a new user with read-only access
+sys_db.create_user(username="readonly_user", password="readonly123", active=True)
+
+# Grant read-only access to a specific database
+sys_db.update_permission(username="readonly_user", database="example_db", permission="ro")
+
+print("User 'readonly_user' created with read-only access.")

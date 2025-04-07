@@ -32,10 +32,10 @@ public class AtletaComparable implements Comparable<AtletaComparable> {
 		// (AtlC.timeS , this.timeS)  orden descendente 
 	}
 
-    @Override
-    public String compareTo(AtletaComparable Atl){
-        return this.name.compareTo(Atl.name); 
-    }
+    // @Override
+    // public String compareTo(AtletaComparable Atl){
+    //     return this.name.compareTo(Atl.name); 
+    // }
 
     
 

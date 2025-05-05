@@ -17,7 +17,7 @@ public class TestAtleta {
         atletas[2] = new AtletaComparable("Luis", 15, 12);
         atletas[3] = new AtletaComparable("Sofía", 11, 23);
 
-        System.out.println("Lista ordenada");
+        System.out.println("\nLista ordenada ");
         for(AtletaComparable var_atleta : atletas){
             System.out.println(var_atleta);
         }
@@ -28,12 +28,11 @@ public class TestAtleta {
         // Ordenar el array
         Arrays.sort(atletas, comparaEdades);
         
-        System.out.println("Lista desordenada");
+        System.out.println("\nLista desordenada");
         for(AtletaComparable var_atleta : atletas){
             System.out.println(var_atleta);
         }
-
-        // System.out.println(toString);
+        
     }
     
 }

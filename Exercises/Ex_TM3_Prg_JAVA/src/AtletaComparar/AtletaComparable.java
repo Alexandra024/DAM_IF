@@ -40,8 +40,11 @@ public class AtletaComparable implements Comparable<AtletaComparable> {
 
     @Override
     public String toString() {
-        return "AtletaComparable [name = " + name + ", time seconds = " + timeS + "]";
+        return "Atleta{" +
+            "nombre='" + name + '\'' +
+            ", tiempo segundos=" + timeS +
+            ", edad=" + age +
+            '}';
     }
-
 }
 

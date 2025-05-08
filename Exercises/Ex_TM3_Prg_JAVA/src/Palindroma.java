@@ -29,7 +29,7 @@ public class Palindroma {
         //     }
         // }
 
-        // PREUEBAS
+        // PRUEBAS
         // System.out.println("Lista de letras ASCII: " + letrasASCII);
         // char primerCaracter = letrasASCII.get(0);
         // System.out.println("primer caracter:" + primerCaracter);

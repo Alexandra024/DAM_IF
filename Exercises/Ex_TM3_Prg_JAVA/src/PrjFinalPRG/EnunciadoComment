@@ -18,7 +18,6 @@
     Crea dos clases que extiendan de MaterialBiblioteca: Libro y Revista.
 
         La clase Libro debe tener:
-
             Un atributo String autor
             Un atributo boolean prestado que indique si el libro está prestado o no.
         La clase Revista debe tener:

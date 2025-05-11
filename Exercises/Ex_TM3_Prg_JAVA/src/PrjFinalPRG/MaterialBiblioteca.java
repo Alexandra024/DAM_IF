@@ -1,7 +1,21 @@
 package Ex_TM3_Prg_JAVA.src.PrjFinalPRG;
 
+// Interfaces:
+
+// Prestable debe tener los métodos void prestar() y void devolver().
+// Catalogable: debe tener el método String getResumenCatalogo().
+
+public interface Prestable {
+
+    
+}
+
+public interface Catalogable {
+
+    
+}
 // Clase abstracta que representa material de biblioteca
-public abstract class MaterialBiblioteca {  
+public abstract class MaterialBiblioteca implements Prestable, Catalogable{  
     
     // Campos para almacenar el título, código y año de publicación del material
     protected String titulo; 

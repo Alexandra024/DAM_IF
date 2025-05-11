@@ -1,0 +1,61 @@
+<!-- Desarrolla una aplicación en Java que modele el sistema de gestión de una biblioteca, aplicando los principios de la programación orientada a objetos: encapsulamiento, herencia, polimorfismo, interfaces, agregación, composición y el uso de colecciones, ordenamientos, manejo de excepciones y serialización.
+
+1. Clase base (superclase abstracta)
+    Crea una clase abstracta llamada MaterialBiblioteca, que representará cualquier 
+    tipo de material que puede estar disponible en la biblioteca 
+    (por ejemplo, libros o revistas).
+    Esta clase debe tener los siguientes atributos privados:
+
+        String titulo
+        String codigo
+        int anioPublicacion
+
+    También debe incluir:
+        Un método abstracto String getTipoMaterial() que será implementado por las subclases.
+        Un método toString() que devuelva una representación legible del material.
+
+2. Clases hijas
+    Crea dos clases que extiendan de MaterialBiblioteca: Libro y Revista.
+
+        La clase Libro debe tener:
+
+            Un atributo String autor
+            Un atributo boolean prestado que indique si el libro está prestado o no.
+        La clase Revista debe tener:
+            Un atributo int numeroEdicion para identificar la edición.
+
+3. Interfaces
+    Crea dos interfaces:
+
+        Prestable: debe tener los métodos void prestar() y void devolver().
+        Catalogable: debe tener el método String getResumenCatalogo().
+
+    Las clases correspondientes deben implementar estas interfaces con su respectiva lógica.
+
+4. Agregación y Composición
+    Crea una clase Biblioteca que contenga una colección de materiales (por ejemplo, 
+    un ArrayList<MaterialBiblioteca>). Esta relación representa una agregación: 
+    la biblioteca tiene muchos materiales, pero estos pueden existir independientemente.
+
+    Además, implementa una relación de composición en la clase Libro: cada libro debe 
+    tener un objeto de tipo Autor, con atributos nombre y nacionalidad. El autor 
+    no puede existir sin el libro.
+
+5. Uso de colecciones
+    Utiliza una colección (por ejemplo, ArrayList, HashMap, etc.) para gestionar los
+     materiales dentro de la clase Biblioteca.
+
+6. Ordenamiento
+    Haz que la clase Libro implemente la interfaz Comparable, comparando los libros por su titulo.
+
+    Crea un Comparator<Libro> adicional para ordenarlos por su anioPublicacion.
+
+7. Excepciones personalizadas
+    Crea una excepción personalizada llamada MaterialNoEncontradoException. 
+    Esta se debe lanzar cuando se intente buscar un material que no se 
+    encuentra en la biblioteca.
+
+8. Serialización
+    Implementa la serialización de la lista de materiales de la biblioteca en un 
+    archivo binario (.ser). Luego, incluye un proceso de deserialización para 
+    recuperar esos materiales desde el archivo y mostrarlos. -->

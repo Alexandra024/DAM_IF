@@ -7,7 +7,7 @@ Terrestre conduce por tierra y Acuatico navega por agua.
 
 Escribe un programa que verifique en distintas listas lo siguiente: 
 En una ArrayList introduce vehículos desordenados. Y en un recorrido ves
- indicando, las siguientes listas, con un contador cada una:
+indicando, las siguientes listas, con un contador cada una:
 
 -Todos los vehículos terrestres.
 -Todos los vehículos acuáticos.

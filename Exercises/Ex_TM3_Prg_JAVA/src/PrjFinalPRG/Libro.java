@@ -11,6 +11,8 @@ public class Libro extends MaterialBiblioteca{
         this.prestado = prestado;
     }
 
+    
+
     @Override
     public  getTipomaterial(){
         return "Es un libro";

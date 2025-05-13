@@ -1,6 +1,6 @@
 package Ex_TM3_Prg_JAVA.src;
 
-import java.io.File;
+import java.io.*; // java.io.File especificamente
 public class ClaseFile {
     
     public static void main(String[] args) {

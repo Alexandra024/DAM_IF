@@ -1,0 +1,15 @@
+<!-- Implemente un programa en Java que gestione una lista de objetos de la 
+clase Estudiante. Cada estudiante tiene los atributos nombre (String), 
+edad (int) y calificacionPromedio (double).
+
+1. Ordena los estudiantes como orden natural:
+Ordene los estudiantes por nombre en orden alfabético natural.
+
+2. Además crea los dos órdenes siguientes:
+Una para ordenar los estudiantes por edad en orden ascendente.
+Otra para ordenar los estudiantes por calificacionPromedio en orden descendente.
+
+3. Requisitos adicionales:
+Cree una lista de estudiantes con al menos cinco elementos.
+Muestre en consola la lista ordenada según cada criterio: primero 
+por nombre, luego por edad y finalmente por calificacionPromedio -->

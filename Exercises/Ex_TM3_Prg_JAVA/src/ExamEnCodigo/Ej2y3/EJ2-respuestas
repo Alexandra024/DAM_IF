@@ -1,0 +1,15 @@
+Explica la teoría de las colecciones en Java, abarcando los siguientes puntos clave:
+
+1. Introducción a las colecciones: ¿Qué son las colecciones y 
+cuál es su propósito en la programación en Java?
+
+
+2. La interfaz Collection: Describe su papel en la jerarquía de 
+colecciones y sus métodos principales.
+
+
+3. Jerarquía de las colecciones.
+
+4. Diferencias entre cada una de las implementaciones.
+
+5. ¿Para qué sirven Collections?

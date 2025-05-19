@@ -9,5 +9,24 @@ public class Revista extends MaterialBiblioteca {
         this.numeroEdicion = numeroEdicion;
     }
 
-    
+    public int getNumeroEdicion() { return numeroEdicion; }
+
+    @Override // clase abstracta del padre
+    public String getTipoMaterial(){
+        return "material: ...";
+    }
+
+    @Override
+    public void prestar(){
+        System.out.println("se ha prestado la Revista");
+    }
+    @Override
+    public void devolver(){
+        System.out.println("se ha devuelto la Revista");
+    }
+
+    @Override
+    public String getResumenCatalogo(){
+        return "Catalogo Revista: ..." ;
+    }
 }

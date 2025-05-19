@@ -37,7 +37,7 @@
     la biblioteca tiene muchos materiales, pero estos pueden existir independientemente.
 
     Además, implementa una relación de composición en la clase Libro: cada libro debe 
-    tener un objeto de tipo Autor, con atributos nombre y nacionalidad. El autor 
+    tener un objeto de tipo Autor, con atributos nombre y editorial. El autor 
     no puede existir sin el libro.
 
 5. Uso de colecciones

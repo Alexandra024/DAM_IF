@@ -5,17 +5,17 @@ package Ex_TM3_Prg_JAVA.src.PrjFinalPRG;
 // Prestable debe tener los métodos void prestar() y void devolver().
 // Catalogable: debe tener el método String getResumenCatalogo().
 
-public interface Prestable {
-
-    
+interface Prestable {
+    void prestar();
+    void devolver();
 }
 
-public interface Catalogable {
-
-    
+interface Catalogable {
+    String getResumenCatalogo();
 }
+
 // Clase abstracta que representa material de biblioteca
-public abstract class MaterialBiblioteca implements Prestable, Catalogable{  
+public abstract class MaterialBiblioteca implements Prestable, Catalogable {  
     
     // Campos para almacenar el título, código y año de publicación del material
     protected String titulo; 
@@ -28,6 +28,11 @@ public abstract class MaterialBiblioteca implements Prestable, Catalogable{
         this.codigo = codigo;
         this.anioPublicacion = anioPublicacion;
     }
+
+    // Getters de los atributos
+    public String getTitulo() { return titulo; }
+    public String getCodigo() { return codigo; }
+    public String getAnioPublicacion() { return anioPublicacion; }
 
     // Método abstracto que debe ser implementado por las clases derivadas para especificar el tipo de material
     public abstract String getTipoMaterial();

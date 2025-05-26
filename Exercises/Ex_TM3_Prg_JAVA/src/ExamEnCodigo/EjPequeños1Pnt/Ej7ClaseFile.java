@@ -33,3 +33,40 @@ public class Ej7ClaseFile {
     }
 }
 
+
+
+class MiniFileTest {
+
+    public static void main(String[] args) {
+
+        String nombreArchivo = "miArchivoSimple.txt";
+        File archivo = new File(nombreArchivo);
+
+        try {
+            // Crea un nuevo archivo si no existe
+            if (archivo.createNewFile()) {
+                System.out.println("Archivo creado: " + archivo.getName());
+            } else {
+                System.out.println("Archivo ya existe: " + archivo.getName());
+            }
+
+            // Verifica si el objeto File representa un archivo
+            System.out.println("Es un archivo? " + archivo.isFile());
+
+            // Obtiene la ruta absoluta
+            System.out.println("Ruta absoluta: " + archivo.getAbsolutePath());
+
+        } catch (IOException e) {
+            e.printStackTrace(); // Imprime el error si algo sale mal al crear el archivo
+        } finally {
+            // Intenta eliminar el archivo al finalizar (limpieza)
+            if (archivo.exists()) {
+                if (archivo.delete()) {
+                    System.out.println("Archivo eliminado: " + archivo.getName());
+                } else {
+                    System.out.println("No se pudo eliminar el archivo: " + archivo.getName());
+                }
+            }
+        }
+    }
+}

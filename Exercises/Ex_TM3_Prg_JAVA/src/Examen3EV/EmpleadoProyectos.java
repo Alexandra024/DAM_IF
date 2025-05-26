@@ -6,8 +6,9 @@ public class EmpleadoProyectos extends Empleado {
     public int horasExtras;
     public static final double PLUS = 750.0;
 
-    public EmpleadoProyectos(String nombre, double salarioBase, int horasExtras) {
-        super(nombre);
+    // CONSTRUCTOR
+    public EmpleadoProyectos(String nombre,Direccion direccion, double salarioBase, int horasExtras) {
+        super(nombre, direccion);
         this.salarioBase = salarioBase;
         this.horasExtras = horasExtras;
     }
@@ -23,7 +24,6 @@ public class EmpleadoProyectos extends Empleado {
 
     @Override
     public void mostrarInformacion() {
-        super.mostrarInformacion();
         System.out.println("Salario base: " + salarioBase);
         System.out.println("Horas extras: " + horasExtras);
         System.out.println("Plus: " + PLUS);

@@ -1,3 +1,18 @@
+/**
+ * Clase abstracta que representa una obra literaria o artística.
+ * Contiene información básica como el título, autor, año de edición y precio.
+ * Proporciona métodos para acceder a estos atributos y un método abstracto
+ * para calcular el precio final de la obra, que debe ser implementado por las subclases.
+ * 
+ * @author sarab
+ * @version 1.0
+ * 
+ * @param titulo Título de la obra.
+ * @param autor Autor de la obra.
+ * @param annoED Año de edición de la obra.
+ * @param precio Precio base de la obra.
+ */
+
 package EX_3EV_ORDINARIA;
 
 public abstract class Obra {

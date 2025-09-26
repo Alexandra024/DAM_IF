@@ -1,0 +1,11 @@
+{
+  "Main Method": {
+    "prefix": "psvm",
+    "body": [
+      "public static void main(String[] args) {",
+      "    $0",
+      "}"
+    ],
+    "description": "Crea el método main"
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\bin\Debug\BarsanSA_Ej1Calculadora.exe.config
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\bin\Debug\BarsanSA_Ej1Calculadora.exe
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\bin\Debug\BarsanSA_Ej1Calculadora.pdb
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\bin\Debug\BarsanSA_Ej1Calculadora.xml
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\obj\Debug\BarsanSA_Ej1Calculadora.vbproj.AssemblyReference.cache
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\obj\Debug\BarsanSA_Ej1Calculadora.Form1.resources
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\obj\Debug\BarsanSA_Ej1Calculadora.Resources.resources
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\obj\Debug\BarsanSA_Ej1Calculadora.vbproj.GenerateResource.cache
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\obj\Debug\BarsanSA_Ej1Calculadora.vbproj.CoreCompileInputs.cache
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\obj\Debug\BarsanSA_Ej1Calculadora.exe
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\obj\Debug\BarsanSA_Ej1Calculadora.xml
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_Ej1Calculadora\obj\Debug\BarsanSA_Ej1Calculadora.pdb

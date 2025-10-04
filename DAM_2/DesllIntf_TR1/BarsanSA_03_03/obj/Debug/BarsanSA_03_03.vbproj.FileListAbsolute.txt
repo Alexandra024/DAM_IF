@@ -1,0 +1,13 @@
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\bin\Debug\BarsanSA_03_03.exe.config
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\bin\Debug\BarsanSA_03_03.exe
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\bin\Debug\BarsanSA_03_03.pdb
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\bin\Debug\BarsanSA_03_03.xml
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.vbproj.AssemblyReference.cache
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.Form1.resources
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.Resources.resources
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.vbproj.GenerateResource.cache
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.vbproj.CoreCompileInputs.cache
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.exe
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.xml
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.pdb
+C:\Users\sarab\Desktop\Repos\DAM_IF\DAM_2\DesllIntf_TR1\BarsanSA_03_03\obj\Debug\BarsanSA_03_03.exe.config
